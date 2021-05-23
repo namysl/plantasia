@@ -1,7 +1,7 @@
 # plantasia
  Grow some plants and don't let them die - that kind of Arduino project
 
-Using plots and charts in data visualization as well. Python files are heavily personalized for my use. I added some of my data in example_plant_data.csv for a start. The all_charts_imported.py file is the lazy way to try it out.
+Using plots and charts in data visualization as well. Python files are heavily personalized for my use. I added some of my data in example_plant_data.csv for a start. The all_charts_imported.py file is the lazy-but-fast way to try it out.
 
 <br>  
 Used sensors:
