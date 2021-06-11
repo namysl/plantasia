@@ -2,16 +2,19 @@ import chart_bar as bar
 import chart_plot as plot
 import chart_pie as pie
 import days_with_data as days
+from colorama import init, Fore, Back, Style
 
+init(convert=True)
 
 print('type in :q! to exit')
 print('type in days to see dates with data')
 
 while True:
-    print('\navailable data columns: temp_c, air, light, soil')
-    print('available charts: bar, plot, pie\n')
-    
-    chart_input = input('type of chart: ')
+    print(Fore.GREEN + '\navailable data columns: temp_c, air, light, soil')
+    print(Fore.GREEN + 'available charts: bar, plot, pie\n')
+
+    print(Style.RESET_ALL)
+    chart_input = input('type of a chart: ')
 
     if chart_input == 'bar':
         column = input('column: ')
@@ -37,9 +40,12 @@ while True:
     elif chart_input == 'days':
         dates = days.unique_days()
         print(', '.join(dates))
+        print(Style.RESET_ALL)
                 
     elif chart_input == ':q!':
         exit()
+        
     else:
-        print('\nerror, available types of charts: bar, plot, pie')
-        print('or :q! to exit\n')
+        print(Back.RED + '\nerror, available types of charts: bar, plot, pie')
+        print(Back.RED + 'or :q! to exit\n')
+        print(Style.RESET_ALL)
