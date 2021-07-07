@@ -1,9 +1,6 @@
 # plantasia
- Grow some plants and don't let them die - that kind of Arduino project. Using plots and charts in data visualization as well. 
+ Grow some plants and don't let them die - that kind of Arduino project. Using charts in data visualization as well. 
 
-Python files are heavily personalized for my use. I added some of my data in example_plant_data.csv for a start.  
-The all_charts_imported.py file is the lazy-but-fast way to try it out.
- 
 ## Used modules and sensors:
 
 Arduino Uno  
@@ -23,3 +20,23 @@ DHT11 humidity and temperature sensor, SE012 photoresistor, FC-28 soil moisture 
 
 
 ![oled](oled_demo.png?raw=true "oled_demo")
+
+
+## Python
+
+Python files are heavily personalized for my use. I added some of my data in *example_plant_data.csv* for a start.  
+The *all_charts_imported.py* file is the lazy-but-fast way to try it out.
+
+Available types of charts: 
+* bar chart, 
+* pie chart,
+* run chart (this one is actually named *chart_plot.py* in files).
+
+Used libraries, modules etc.: 
+* csv
+* time
+* pySerial
+* Pandas
+* Matplotlib
+* Numpy
+* Colorama
