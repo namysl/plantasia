@@ -28,9 +28,9 @@ Python files are heavily personalized for my use. I added some of my data in *ex
 The *all_charts_imported.py* file is the lazy-but-fast way to try it out.
 
 Available types of charts: 
-* bar chart, 
-* pie chart,
-* run chart (this one is actually named *chart_plot.py* in files).
+* bar chart
+* pie chart
+* run chart (this one is actually named *chart_plot.py* in files)
 
 Used libraries, modules etc.: 
 * csv
