@@ -139,3 +139,4 @@ def plot_chart(day, with_min_max=False):
 
 
 # plot_chart('2021-05-20', True)
+# plot_chart('2021-01-01')

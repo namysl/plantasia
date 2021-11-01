@@ -94,3 +94,4 @@ def bar_chart(column, date1='', date2='', last_x_days=0, with_mean=False):
 # bar_chart('temp_c', '2021/6/01', '2021-06-10', last_x_days=20, with_mean=True)
 # bar_chart('temp_c', last_x_days=1, with_mean=True)
 # bar_chart('temp_c', '2021/5/01', '2021/05/20')
+# bar_chart('temp_c', last_x_days=2)

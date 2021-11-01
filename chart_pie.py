@@ -101,3 +101,4 @@ def pie_chart(day, column):
 
 
 # pie_chart('20-05-2021', 'temp_c')
+# pie_chart('01-01-2021', 'temp_c')
