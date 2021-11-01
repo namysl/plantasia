@@ -41,4 +41,4 @@ Available types of charts:
 * pie chart
 * run chart (this one is actually named *chart_plot.py* in files)
 
-![chart](chart.png?raw=true "chart_demo.png")
+![chart](chart_demo.png?raw=true "chart_demo.png")
