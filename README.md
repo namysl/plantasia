@@ -27,11 +27,6 @@ DHT11 humidity and temperature sensor, SE012 photoresistor, FC-28 soil moisture 
 Python files are heavily personalized for my use. I added some of my data in *example_plant_data.csv* for a start.  
 The *all_charts_imported.py* file is the lazy-but-fast way to try it out.
 
-Available types of charts: 
-* bar chart
-* pie chart
-* run chart (this one is actually named *chart_plot.py* in files)
-
 Used libraries, modules etc.: 
 * csv
 * time
@@ -40,3 +35,10 @@ Used libraries, modules etc.:
 * Matplotlib
 * Numpy
 * Colorama
+
+Available types of charts: 
+* bar chart
+* pie chart
+* run chart (this one is actually named *chart_plot.py* in files)
+
+[chart](chart.png?raw=true "chart_demo.png")
