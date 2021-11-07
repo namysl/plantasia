@@ -19,7 +19,7 @@ DHT11 humidity and temperature sensor, SE012 photoresistor, FC-28 soil moisture 
 * Sends data via Serial.
 
 
-![oled](oled_demo.png?raw=true "oled_demo")
+![oled](images/oled_demo.png?raw=true "images/oled_demo")
 
 
 ## Python:
@@ -39,6 +39,6 @@ Used libraries, modules etc.:
 Available types of charts: 
 * bar chart
 * pie chart
-* run chart (this one is actually named *chart_plot.py* in files)
+* run chart
 
-![chart](chart_demo.png?raw=true "chart_demo.png")
+![chart](images/chart_demo.png?raw=true "images/chart_demo.png")
